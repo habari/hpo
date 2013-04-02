@@ -148,7 +148,7 @@ header {
 header + * {  /** adds a top margin to anything that comes immediately after the fixed header **/
 	margin-top: 76px;
 }
-*:target { /** adds padding to the top of a bookmark-targeted element to push it down past the fixed header **/
+#edit_content *:target, *:target { /** adds padding to the top of a bookmark-targeted element to push it down past the fixed header **/
 	padding-top: 76px;
 }
 #intro, #app_preview {
@@ -420,6 +420,7 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 	}
 	
 	#involved .container {
+		padding-top: 55px;
 		padding-bottom: 55px;
 	}
 		#involved .container h2 {
@@ -427,7 +428,7 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 			font-weight: normal;
 			font-family: "Montserrat";
 			color: #fff;
-			margin-bottom: 25px;		
+			margin-bottom: 25px;
 		}
 
 		#involved .container h5 {

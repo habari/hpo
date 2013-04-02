@@ -8,4 +8,11 @@
 	<description><![CDATA[Repsonsive Design for 2013]]></description>
 	<template_engine>rawphpengine</template_engine>
 	<copyright>2012</copyright>
+
+	<areas>
+		<area name="plugin_sidebar">
+			<description><![CDATA[The sidebar next to each plugin]]></description>
+		</area>
+	</areas>
+
 </pluggable>
