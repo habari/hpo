@@ -8,7 +8,7 @@
 </div>
 <div id="intro_header">
 	<div class="container">
-		<h3>Updates, Tutorials &amp; Articles from the Habari Community.</h3>
+		<h3><?php echo $post->title_out; ?></h3>
 	</div>
 </div>
 <div id="article" class="contributing">
@@ -19,7 +19,6 @@
 					<i class="icon-code">Q</i>
 				</div>
 				<div class="columns eleven body">
-					<h2><?php echo $post->title_out; ?></h2>
 					<?php echo strip_tags( $post->content_excerpt ); ?>
 				</div>
 				<hr>
