@@ -11,25 +11,25 @@
 	<div class="container">
 		<div class="row">
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/api/theme">
+				<a href="<?php URL::out( 'display_document', array('slug' => 'theme') ); ?>">
 					<i class="icon-code">a</i>
 					<p><strong>Theme API</strong></p>
 				</a>
 			</div>
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/api/plugin">
+				<a href="<?php URL::out( 'display_document', array('slug' => 'plugin') ); ?>">
 					<i class="icon-code">P</i>
 					<p><strong>Plugin API</strong></p>
 				</a>
 			</div>
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/api/ajax">
+				<a href="<?php URL::out( 'display_document', array('slug' => 'ajax') ); ?>">
 					<i class="icon-code">A</i>
 					<p><strong>AJAX API</strong></p>
 				</a>
 			</div>
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/api/rest">
+				<a href="<?php URL::out( 'display_document', array('slug' => 'rest') ); ?>">
 					<i class="icon-code">r</i>
 					<p><strong>REST API</strong></p>
 				</a>
