@@ -124,7 +124,7 @@ class HPO extends Theme
 	public function top_level_menu() {
 		$menu = array(
 			array(
-				'href' => Site::get_url('habari') . '/blog',
+				'href' => Site::get_url('site') . '/blog',
 				'label' => 'News',
 				'activeon' => array(
 					array('display_multiple'),
@@ -132,11 +132,11 @@ class HPO extends Theme
 				),
 			),
 			array(
-				'href' => Site::get_url('habari') . '/addons',
+				'href' => Site::get_url('site') . '/addons',
 				'label' => 'Addons',
 			),
 			array(
-				'href' => Site::get_url('habari') . '/developers',
+				'href' => Site::get_url('site') . '/developers',
 				'label' => 'Developers',
 				'activeon' => array(
 					array('display_page', array('slug' => 'developers')),
@@ -144,7 +144,7 @@ class HPO extends Theme
 				),
 			),
 			array(
-				'href' => Site::get_url('habari') . '/support',
+				'href' => Site::get_url('site') . '/support',
 				'label' => 'Support',
 				'activeon' => array(
 					array('display_page', array('slug' => 'support')),
