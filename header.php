@@ -59,7 +59,7 @@
 	<div id="app_preview">
 		<div class="container">
 			<div class="row offset-by-three">
-				<div class="download five columns"><a href="http://habariproject.org/en/download" title="download 1.0">Download 1.0</a></div>
+				<div class="download five columns"><a href="http://habariproject.org/en/download" title="download 1.0">Download 0.9.1</a></div>
 				<div class="take_tour five columns"><a href="#tour" title="Take a tour">See what's new</a></div>
 			</div>
 		</div>
