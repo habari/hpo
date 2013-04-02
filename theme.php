@@ -132,11 +132,14 @@ class HPO extends Theme
 				),
 			),
 			array(
-				'href' => Site::get_url('site') . '/addons',
+				'href' => Site::get_url('habari') . '/addons',
 				'label' => 'Addons',
+				'activeon' => array(
+					array('display_basepath'),
+				),
 			),
 			array(
-				'href' => Site::get_url('site') . '/developers',
+				'href' => URL::get('display_page', array('slug' => 'developers')),
 				'label' => 'Developers',
 				'activeon' => array(
 					array('display_page', array('slug' => 'developers')),
