@@ -84,6 +84,7 @@ header {
 	position: fixed;
 	z-index: 100;
 	border-bottom: 1px solid #eee;
+	top: 0;
 }
 	.logo {
 		float:left;
@@ -144,8 +145,14 @@ header {
 					color: #fff;
 					background-color: rgb( 87, 154, 169 );
 				}
+header + * {  /** adds a top margin to anything that comes immediately after the fixed header **/
+	margin-top: 76px;
+}
+*:target { /** adds padding to the top of a bookmark-targeted element to push it down past the fixed header **/
+	padding-top: 76px;
+}
 #intro, #app_preview {
-	padding-top: 165px;
+	padding-top: 95px;
 	padding-bottom: 0px;
 	width: 100%;
 	height: auto;
@@ -157,7 +164,7 @@ header {
 }
 
 	#intro.subpage {
-		padding-top: 135px;
+		padding-top: 60px;
 		padding-bottom: 30px;
 	}
 	
@@ -411,12 +418,8 @@ header {
 		padding-top: 5px;
 		padding-bottom: 0px;
 	}
-		#involved.subpage.addons .container {
-			padding-top: 80px;
-		}
 	
 	#involved .container {
-		padding-top: 55px;
 		padding-bottom: 55px;
 	}
 		#involved .container h2 {

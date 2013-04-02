@@ -22,10 +22,10 @@
 <body>
 <nav id="mobile_menu">
 	<ul>
-		<li><a href="<?php Site::out_url('site'); ?>/blog">News</a></li>
-		<li><a href="http://addons.habariproject.org">Addons</a></li>
-		<li><a href="<?php Site::out_url('site'); ?>/developers">Developers</a></li>
-		<li><a href="<?php Site::out_url('site'); ?>/support">Support</a></li>
+		<li><a href="<?php Site::out_url('habari'); ?>/en/blog">News</a></li>
+		<li><a href="<?php Site::out_url('habari'); ?>/addons">Addons</a></li>
+		<li><a href="<?php Site::out_url('habari'); ?>/en/developers">Developers</a></li>
+		<li><a href="<?php Site::out_url('habari'); ?>/en/support">Support</a></li>
 		<li><a href="http://demo.habariproject.org">Demo</a></li>
 	</ul>
 </nav>
