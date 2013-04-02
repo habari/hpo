@@ -8,9 +8,15 @@
 	</div>
 </div>
 <div id="article" class="contributing">
-	<div class="container">		
-		<div class="fourteen offset-by-one columns omega">
-			<?php echo $post->content_out; ?>
+	<div class="container">
+		<div class="row offset-by-one">
+			<div id="community" class="fourteen area columns">
+				<div class="two columns">
+					<i class="icon-code"><?php echo $theme->get_page_icon( $post->slug ); ?></i>
+				</div>
+				<div class="columns eleven body">
+					<?php echo $post->content_out; ?>
+				</div>
 		</div>
 	</div>
 </div>

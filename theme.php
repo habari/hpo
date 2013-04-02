@@ -29,6 +29,23 @@ class HPO extends Theme
 		return $activeon;
 	}
 	
+	public function get_page_icon($slug) {
+		$icon = '';
+		switch( $slug ) {
+			case 'license':
+				$icon = 'I';
+			break;
+			case 'history':
+				$icon = 'h';
+			break;
+			case 'vision':
+				$icon = 'v';
+			break;
+		}
+		
+		return $icon;
+	}
+	
 	public function activate_menu($menu, $get_submenu = false) {
 		$likely_rating = -999;
 		$likely = false;
