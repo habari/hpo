@@ -140,7 +140,7 @@ header {
 				text-decoration: none;
 				padding: 5px 10px;
 			}
-				#menu li a:hover {
+				#menu li a:hover, #menu li a.selected {
 					color: #fff;
 					background-color: rgb( 87, 154, 169 );
 				}
@@ -502,12 +502,6 @@ header {
 }
 	#article a {
 		text-decoration:none;
-	}
-	
-	#article .gravatar {
-		float:left;
-		border-radius: 50%;
-		margin-left: 12px;
 	}
 	
 	#article .intro {
