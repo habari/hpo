@@ -135,7 +135,9 @@ class HPO extends Theme
 				'href' => Site::get_url('habari') . '/addons',
 				'label' => 'Addons',
 				'activeon' => array(
-					array('display_basepath'),
+					array('display_addon_basepath'),
+					array('display_addon'),
+					array('display_addons'),
 				),
 			),
 			array(
