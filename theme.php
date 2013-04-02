@@ -146,6 +146,7 @@ class HPO extends Theme
 				'activeon' => array(
 					array('display_page', array('slug' => 'developers')),
 					array('display_document'),
+					array('display_docpage'),
 				),
 			),
 			array(
