@@ -28,54 +28,6 @@
 	</div>
 </div>
 <?php $theme->display('quicklinks'); ?>
-<div id="bundles">
-	<div class="container">
-		<h2>Introducing Habari Bundles</h2>
-		<div class="offset-by-one fourteen columns">
-			<p><a href="<?php Site::out_url('habari'); ?>/extend/bundles" title="View our Bundles">Bundles</a> contain everything you need to quickly get a specific type of Habari site up and running, <a href="<?php Site::out_url('habari'); ?>/extend/themes" title="Themes">themes</a> and <a href="<?php Site::out_url('habari'); ?>/extend/plugins" title="Plugins">plugins</a>, etc. Need a photoblog? Grab a photoblog bundle. Need a real estate site? Download a real estate bundle and you are on your way.</p>
-		</div>
-		<div class="row">		
-			<div class="bundle one-third column">
-				<div class="body">
-					<h4><i class="icon-bundle">b</i>Light Table</h4>
-					<ul>
-						<li>Designed for Photoblogs</li>
-						<li>Responsive Layout</li>
-						<li>Flickr Import</li>
-						<li>Stripe Integration for Sales</li>
-					</ul>
-					<p class="bundle_download"><a href="#" title="Download Light Table">Grab this Bundle</a></p>
-				</div>
-			</div>
-			<div class="bundle one-third column">
-				<div class="body">
-					<h4><i class="icon-bundle">b</i>Curb Appeal</h4>
-					<ul>
-						<li>Designed for Real Estate Sites</li>
-						<li>Responsive Layout</li>
-						<li>Easily Manage Multiple Listings</li>
-						<li>Google Maps API</li>
-					</ul>
-					<p class="bundle_download"><a href="#" title="Download Curb Appeal">Grab this Bundle</a></p>
-				</div>
-			</div>
-			<div class="bundle one-third column">
-				<div class="body">
-					<h4><i class="icon-bundle">b</i>Daily Dish</h4>
-					<ul>
-						<li>Designed for Restaurants</li>
-						<li>Responsive Layout</li>
-						<li>Menu Management Plugin</li>
-						<li>Stripe Integration for Sales</li>
-					</ul>
-					<p class="bundle_download"><a href="#" title="Download Daily Dish">Grab this Bundle</a></p>
-				</div>
-			</div>
-			<div class="clear"></div>
-			<h5>Have a bundle to add? Send us a pull request, we'll take care of the rest.</h5>
-		</div>
-	</div>
-</div>
 <div id="involved">
 	<div class="container">
 		<h2>Getting involved with Habari</h2>
@@ -86,25 +38,25 @@
 		</div>
 		<div class="row">
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/contributing#design">
+				<a href="<?php Site::out_url('site'); ?>/contributing#design">
 					<i class="icon-code">a</i>
 					<p><strong>Design</strong></p>
 				</a>
 			</div>		
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/contributing#development">
+				<a href="<?php Site::out_url('site'); ?>/contributing#development">
 					<i class="icon-code">g</i>
 					<p><strong>Development</strong></p>
 				</a>
 			</div>
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/contributing#translation">
+				<a href="<?php Site::out_url('site'); ?>/contributing#translation">
 					<i class="icon-code">e</i>
 					<p><strong>Translations</strong></p>
 				</a>
 			</div>
 			<div class="area four columns">
-				<a href="<?php Site::out_url('habari'); ?>/contributing#documentation">
+				<a href="<?php Site::out_url('site'); ?>/contributing#documentation">
 					<i class="icon-code">d</i>
 					<p><strong>Documentation</strong></p>
 				</a>
