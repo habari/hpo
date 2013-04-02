@@ -30,4 +30,5 @@
 		</div>
 	</div>
 </div>
+<div id="ending">
 <?php $theme->display('footer'); ?>

@@ -65,4 +65,5 @@
 		<h5>Don't see your area of interest listed? Let us know how you can help and we'll put you to work.</h5>
 	</div>
 </div>
+<div id="ending">
 <?php $theme->display('footer'); ?>

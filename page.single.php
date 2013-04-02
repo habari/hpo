@@ -14,5 +14,6 @@
 		</div>
 	</div>
 </div>
+<div id="ending">
 <?php $theme->display('quicklinks'); ?>
 <?php $theme->display('footer'); ?>
