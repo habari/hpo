@@ -19,7 +19,7 @@
 					<i class="icon-code">Q</i>
 				</div>
 				<div class="columns eleven body">
-					<?php echo $post->content_excerpt; ?>
+					<?php echo $post->content_out; ?>
 				</div>
 				<hr>
 			</div>
