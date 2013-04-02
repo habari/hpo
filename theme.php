@@ -14,18 +14,7 @@ class HPO extends Theme
 		Format::apply_with_hook_params( 'more', 'post_content_excerpt', '', 30, 0 );
 	}
 
-	public function action_add_template_vars() {
-		if( !User::identify()->loggedin ) {
-			$anonymous_routes = array('auth');
-			$anonymous_routes = Plugins::filter('anonymous_routes', $anonymous_routes, $this->matched_rule);
-			$matched_rule = $this->matched_rule;
-			if($matched_rule instanceof RewriteRule && !in_array($matched_rule->name, $anonymous_routes)) {
-				Session::add_to_set( 'login', $_SERVER['REQUEST_URI'], 'original' );
-				Utils::redirect( Site::get_url('habari') . '/auth/login' );
-				exit;
-			} else {}
-		}
-		
+	public function action_add_template_vars() {	
 		$this->wsse = Utils::WSSE();
 	}
 
