@@ -504,6 +504,12 @@ header {
 		text-decoration:none;
 	}
 	
+	#article .gravatar {
+		float:left;
+		border-radius: 50%;
+		margin-left: 12px;
+	}
+	
 	#article .intro {
 		float:left;
 		color: #555;
