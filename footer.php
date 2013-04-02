@@ -5,17 +5,17 @@
 				<div class="offset-by-one four columns">
 					<h6>Project</h6>
 					<ul>
-						<li><a href="<?php Site::out_url('site'); ?>/vision">Vision</a></li>
-						<li><a href="<?php Site::out_url('site'); ?>/history">History</a></li>
+						<li><a href="<?php Site::out_url('habari'); ?>/en/vision">Vision</a></li>
+						<li><a href="<?php Site::out_url('habari'); ?>/en/history">History</a></li>
 						<li><a href="https://github.com/habari/system/contributors">Committers</a></li>
 						<li><a href="https://github.com/organizations/habari">Source Code</a></li>
-						<li><a href="<?php Site::out_url('site'); ?>/license">License</a></li>
+						<li><a href="<?php Site::out_url('habari'); ?>/en/license">License</a></li>
 					</ul>
 				</div>
 				<div class="four columns">
 					<h6>Community</h6>
 					<ul>
-						<li><a href="<?php Site::out_url('site'); ?>/blog">Community News</a></li>
+						<li><a href="<?php Site::out_url('habari'); ?>/en/blog">Community News</a></li>
 						<li><a href="http://groups.google.com/group/habari-users">Users Mailing List</a></li>
 						<li><a href="http://groups.google.com/group/habari-dev">Developers Mailing List</a></li>
 						<li><a href="http://stackoverflow.com/questions/tagged/habari">Community Q &amp; A</a></li>
