@@ -502,7 +502,6 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 
 #article {
 	padding: 40px 0px 20px;
-	color: #555;
 }
 	#article a {
 		text-decoration:none;
@@ -517,13 +516,14 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		margin-bottom: 30px;
 	}
 	
-	#article .container h2, #article .container h3 {
+	#article .container h2, #article .container h3, #article .container h4 {
 		font-family: "Montserrat";
 	}
 
 	#article .container h3 {
 		margin-bottom: 20px;
-	}				
+	}
+
 		#article.contributing {}
 			#article.contributing .area {}
 				#article.contributing .area i {
@@ -566,6 +566,10 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 	#article .menu ul li {
 		
 	}
+
+#ending {
+	width: 100%;
+}
 
 footer {
 	position: relative;
