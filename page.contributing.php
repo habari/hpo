@@ -103,7 +103,7 @@
 					<ol>
 						<li><a href="http://habariproject.org/en/download" title="Download and install Habari">Download and install Habari</a>.</li>
 						<li>Marvel at its majesty.</li>
-						<li>Read through <a href="<?php Site::out_url('habari'); ?>/api/" title="Our Documentation">our documentation</a> and find the places you would like to improve it.</li>
+						<li>Read through <a href="<?php Site::out_url('site'); ?>/developers/" title="Our Documentation">our documentation</a> and find the places you would like to improve it.</li>
 						<li><a rhef="<?php URL::out('display_docs_registration'); ?>" title="Create an account!">Create an account</a> on the site.</li>
 						<li>Click on the "suggest a change" link on the page you want to update and edit the page.</li>
 						<li>Your change will go into a queue and will be approved or rejected by a documentation editor.</li>
