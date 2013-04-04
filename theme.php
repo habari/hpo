@@ -33,6 +33,12 @@ class HPO extends Theme
 			case 'support':
 				$icon = 'k';
 			break;
+			case 'download':
+				$icon = 'D';
+			break;
+			default :
+				$icon = 'Q';
+			break;
 		}
 		
 		return $icon;
@@ -85,7 +91,6 @@ class HPO extends Theme
 				}
 			}
 			else {
-				echo '<script>console.log(' . json_encode($menu[$likely]) . ');</script>';
 				if(!is_numeric($likely_key)) {
 					$stored_menus[$likely_key] = $_SERVER['REQUEST_URI'];
 					$user->info->menus = $stored_menus;

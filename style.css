@@ -35,6 +35,13 @@ body {
 	color: #222;
 }
 
+#article a {
+	color: rgb( 87, 154, 169 );
+}
+	#article a:hover {
+		color: rgb( 87, 164, 169 );
+	}
+
 [class^="icon-"] {
 	color: #111;
 	opacity: 0.20;
