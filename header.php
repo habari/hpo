@@ -57,7 +57,7 @@
 		<div class="container">
 			<div class="row offset-by-five">
 				<div class="download six columns"><a href="http://habariproject.org/en/download" title="download 0.9.1">Download 0.9.1</a></div>
-				<!--  <div class="take_tour five columns"><a href="#tour" title="Take a tour">See what's new</a></div> -->
+				<div class="take_tour five columns"><a href="<?php URL::out('display_page', array('slug' => 'whats-new')); ?>" title="See what's new">See what's new</a></div>
 			</div>
 		</div>
 	</div>
