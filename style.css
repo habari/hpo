@@ -208,6 +208,10 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 	border-bottom: 0px;
 }
 
+#article .download a, #article .take_tour a {
+	color: white;
+}
+
 .download a, .take_tour a {
 	display: block;
 	text-decoration: none;
