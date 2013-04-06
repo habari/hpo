@@ -578,6 +578,15 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		
 	}
 
+	#article #sidebar ul {
+		list-style: none;
+	}
+
+	#article ul {
+		list-style: disc inside;
+	}
+
+
 #ending {
 	width: 100%;
 }
@@ -683,3 +692,6 @@ footer {
 	/* Anything smaller than standard 960 on a device */
 	@media only screen and (max-width: 959px) and (max-device-width: 1000px) {
 	}
+
+
+
