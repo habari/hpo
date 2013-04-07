@@ -209,7 +209,7 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 }
 
 #article .download a, #article .take_tour a {
-	color: white;
+	color: rgb( 255, 255, 255 );
 }
 
 .download a, .take_tour a {
@@ -535,6 +535,11 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		margin-bottom: 20px;
 	}
 
+	#article .body ul, #article .body ol {
+		list-style: disc;
+		margin-left: 40px;
+	}
+	
 		#article.contributing {}
 			#article.contributing .area {}
 				#article.contributing .area i {
@@ -577,15 +582,6 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 	#article .menu ul li {
 		
 	}
-
-	#article #sidebar ul {
-		list-style: none;
-	}
-
-	#article ul {
-		list-style: disc inside;
-	}
-
 
 #ending {
 	width: 100%;
@@ -632,6 +628,32 @@ footer {
 				color: rgb( 255, 255, 255 );
 				opacity: 1.0;
 			}
+
+table {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaa solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px #aaa solid;
+    padding: 5px !important;
+}
+
+th {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
+
+/* hide initially collapsed collapsable tables */
+table.collapsed tr.collapsable {
+	display: none;
+}
 
 /* Responsive breakpoints */
 
@@ -692,6 +714,3 @@ footer {
 	/* Anything smaller than standard 960 on a device */
 	@media only screen and (max-width: 959px) and (max-device-width: 1000px) {
 	}
-
-
-

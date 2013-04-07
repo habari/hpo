@@ -39,7 +39,7 @@
 </div>
 <div id="article">
 	<div class="container">
-		<div class="fourteen offset-by-one columns omega">
+		<div class="fourteen offset-by-one body columns omega">
 			<?php echo $post->content_out; ?>
 		</div>
 	</div>
