@@ -65,23 +65,27 @@ nav {
 	position: fixed;
 	height: 100%;
 	opacity: 1.0;
-	background: #000;
+	background: #333;
+	box-shadow: inset -5px -5px 20px #000;
 }
 	nav ul {
-		margin-top: 20px;
+		position: relative;
+		margin-top: 15px;
+		height: 75%;
+		overflow:none;
 	}
 		nav ul li a  {
-			padding-left: 20px;
+			padding-left: 10px;
 		}
 		nav ul li a, nav ul li a:visited {
 			color: #fff;
 			text-decoration: none;
-			font-size: 20px;
-			line-height: 30px;
+			font-size: 15px;
+			line-height: 15px;
 		}
 			nav ul li + li {
-				padding: 20px 0px 5px;
-				border-top: 1px solid #333;
+				padding: 10px 0px 0px;
+				border-top: 1px solid #222;
 			}
 	
 header {
@@ -206,6 +210,10 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 	padding-top: 30px;
 	padding-bottom: 85px;
 	border-bottom: 0px;
+}
+
+#article .download a, #article .take_tour a {
+	color: rgb( 255, 255, 255 );
 }
 
 .download a, .take_tour a {
@@ -531,6 +539,11 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		margin-bottom: 20px;
 	}
 
+	#article .body ul, #article .body ol {
+		list-style: disc;
+		margin-left: 40px;
+	}
+	
 		#article.contributing {}
 			#article.contributing .area {}
 				#article.contributing .area i {
@@ -619,6 +632,32 @@ footer {
 				color: rgb( 255, 255, 255 );
 				opacity: 1.0;
 			}
+
+table {
+    margin: 1em 1em 1em 0;
+    background: #f9f9f9;
+    border: 1px #aaa solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px #aaa solid;
+    padding: 5px !important;
+}
+
+th {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
+
+/* hide initially collapsed collapsable tables */
+table.collapsed tr.collapsable {
+	display: none;
+}
 
 /* Responsive breakpoints */
 

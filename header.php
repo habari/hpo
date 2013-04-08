@@ -6,8 +6,10 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=auto, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/style.css" media="screen" type="text/css">            
+<link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/style.css" media="screen" type="text/css">
+<link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/css/responsive-nav.css" media="screen" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="<?php Site::out_url('theme'); ?>/js/responsive-nav.min.js"></script>
 <link href="//get.pictos.cc/fonts/2135/9" rel="stylesheet" type="text/css">
 
 <script>
@@ -18,16 +20,11 @@
 </script>
 
 <?php echo $theme->header(); ?>
-<!-- <?php echo Site::get_dir('config'); ?> -->
 </head>
 <body>
 <nav id="mobile_menu">
 	<ul>
-		<li><a href="<?php Site::out_url('habari'); ?>/en/blog">News</a></li>
-		<li><a href="<?php Site::out_url('habari'); ?>/addons">Addons</a></li>
-		<li><a href="<?php Site::out_url('habari'); ?>/en/developers">Developers</a></li>
-		<li><a href="<?php Site::out_url('habari'); ?>/en/support">Support</a></li>
-		<li><a href="http://demo.habariproject.org">Demo</a></li>
+		<?php echo $theme->top_level_menu(); ?>
 	</ul>
 </nav>
 <header>
