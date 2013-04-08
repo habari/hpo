@@ -39,7 +39,11 @@
 </div>
 <div id="article">
 	<div class="container">
+<<<<<<< HEAD
 		<div class="fourteen body offset-by-one columns omega">
+=======
+		<div class="fourteen offset-by-one body columns omega">
+>>>>>>> 3e670ebcf74ac21a47dfbd0798fb8bfbe45a4ae1
 			<?php echo $post->content_out; ?>
 		</div>
 	</div>
