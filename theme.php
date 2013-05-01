@@ -143,6 +143,7 @@ class HPO extends Theme
 					array('display_addon_basepath'),
 					array('display_addon'),
 					array('display_addons'),
+					array('display_addon_tag'),
 				),
 			),
 			array(
