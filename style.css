@@ -124,6 +124,15 @@ header {
 	#menu {
 		float:right;
 	}
+		#menu .search_field {
+			width:150px;
+			display:inline-block;
+			margin:0px;
+		}
+			#menu .search_field input {
+				color: #666;
+			}
+		
 		#mobile_menu_trigger {
 			float: left;
 			display:none;
@@ -587,6 +596,25 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		
 	}
 
+		.news_block {
+			padding: 10px 0px;
+			background: #fff;
+			margin-bottom: 0px;
+			border-bottom: 1px solid #eee;
+		}
+		
+		.news_block .block {
+                padding: 0px;
+                margin: 0px;
+                height: 100%;
+                vertical-align: middle;
+        }
+                .news_block .block i {
+                        color: #fff !important;
+                        margin-top: 30px;
+                        margin-bottom: 0px !important;
+                        margin-left: 30px !important;
+                }
 #ending {
 	width: 100%;
 }
@@ -658,6 +686,30 @@ caption {
 table.collapsed tr.collapsable {
 	display: none;
 }
+
+#page-selector {
+	margin: 0px 5px;
+}
+	#page-selector a {
+		padding: 5px 10px;
+		background: rgb(224, 221, 214);
+	}
+		#page-selector a.current-page {
+			background: rgb(0, 0, 0);
+			opacity: 0.65;
+			color: #fff;
+		}
+		
+		#page-selector a.prev-page, #page-selector a.next-page {
+			background:none;
+		}
+	#page-selector.top {
+		margin-bottom: 15px;
+	}
+	
+	#page-selector.bottom {
+		margin-top: 15px;
+	}
 
 /* Responsive breakpoints */
 

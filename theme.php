@@ -17,6 +17,12 @@ class HPO extends Theme
 	public function action_add_template_vars() {	
 		$this->wsse = Utils::WSSE();
 	}
+
+	public function act_search( $user_filters = array() ) {
+		$types = Post::list_active_post_types();
+		$user_filters = array_merge($user_filters, array('content_type' => $types));
+		parent::act_search($user_filters);
+	}
 	
 	public function get_page_icon($slug) {
 		$icon = '';

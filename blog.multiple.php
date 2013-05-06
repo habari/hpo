@@ -19,7 +19,7 @@
 		</div>
 		<div class="row offset-by-one">
 			<?php foreach( $posts as $post ) { ?>
-			<div id="community" class="fourteen area columns">
+			<div id="entry-<?php $post->id; ?>" class="fourteen area columns news_block">
 				<div class="two columns">
 					<i class="icon-code">Q</i>
 				</div>
@@ -30,6 +30,9 @@
 				<hr>
 			</div>
 			<?php } ?>
+		</div>
+		<div id="page-selector" class="top sixteen columns">
+			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2 ) ); ?> <?php echo $theme->next_page_link(); ?>
 		</div>
 	</div>
 </div>

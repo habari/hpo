@@ -5,7 +5,7 @@
 <title><?php Options::out('title'); ?> <?php if( $request->display_page && isset($post) ) { echo ' &mdash; ' .  $post->title; } ?></title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="robots" content="index, follow">
-<meta name="viewport" content="width=auto, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/style.css" media="screen" type="text/css">
 <link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/css/responsive-nav.css" media="screen" type="text/css">
 <link rel="Shortcut Icon" href="<?php Site::out_url('theme'); ?>/favicon.png">
@@ -38,6 +38,7 @@
 		</div>
 		<ul id="menu">
 			<?php echo $theme->top_level_menu(); ?>
+			<li class="search_field"><form method="get" action="<?php URL::out('display_search'); ?>"><input type="text" value="<?php if ( isset( $criteria ) ) { echo htmlentities($criteria, ENT_COMPAT, 'UTF-8'); } ?>" name="criteria" placeholder="Search"></form></li>
 		</ul>
 	</div>
 </header>
