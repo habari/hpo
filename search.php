@@ -21,8 +21,15 @@
 					<?php } ?>
 				</div>
 				<div class="columns twelve body">
-					<h2><?php echo $theme->permalink( $post ); ?>
-					<h2><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+					<?php if( $post->content_type == Post::type('docpage') ) { ?>
+						<?php 
+							$docpage = Page::get( array('id' => $post->id) );
+							$document = Document::get( array('id' => $docpage->document_id) );
+						?>
+						<h2><a href="<?php URL::out('display_docpage', array('doc' => $document->slug, 'slug' => $docpage->name)); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+					<?php } else { ?>
+						<h2><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+					<?php } ?>
 					<?php echo strip_tags( $post->content_excerpt ); ?>
 				</div>
 			</div>
