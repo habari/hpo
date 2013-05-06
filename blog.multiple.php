@@ -13,7 +13,10 @@
 </div>
 
 <div id="article" class="contributing">
-	<div class="container">		
+	<div class="container">
+		<div id="page-selector" class="top sixteen columns">
+			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2 ) ); ?> <?php echo $theme->next_page_link(); ?>
+		</div>
 		<div class="row offset-by-one">
 			<?php foreach( $posts as $post ) { ?>
 			<div id="community" class="fourteen area columns">
