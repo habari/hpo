@@ -20,14 +20,13 @@
 		<div class="row">
 			<?php foreach( $posts as $post ) { ?>
 			<div id="entry-<?php $post->id; ?>" class="sixteen area columns news_block">
-				<div class="two columns">
+				<div class="three columns block">
 					<i class="icon-code">Q</i>
 				</div>
-				<div class="columns twelve body">
+				<div class="columns thirteen body">
 					<h2><a href="<?php URL::out('display_single', array('slug' => $post->slug) ); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
 					<?php echo strip_tags( $post->content_excerpt ); ?>
 				</div>
-				<hr>
 			</div>
 			<?php } ?>
 		</div>
