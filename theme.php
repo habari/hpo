@@ -138,8 +138,8 @@ class HPO extends Theme
 				'href' => Site::get_url('habari') . '/en/blog',
 				'label' => 'News',
 				'activeon' => array(
-					array('display_multiple'),
-					array('display_single'),
+					array('display_blog_multiple'),
+					array('display_blog_single'),
 				),
 			),
 			array(

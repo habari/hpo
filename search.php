@@ -20,7 +20,7 @@
 					<i class="icon-code"><?php echo $theme->get_page_icon($post->slug); ?></i>
 					<?php } ?>
 				</div>
-				<div class="columns twelve body">
+				<div class="columns thirteen body">
 					<?php if( $post->content_type == Post::type('docpage') ) { ?>
 						<?php 
 							$docpage = Page::get( array('id' => $post->id) );
