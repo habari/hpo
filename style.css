@@ -617,7 +617,7 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		margin-left: 30px !important;
 	}
 
-		.news+block .block img {
+		.news_block .block img {
 			background: #eee;
 			padding: 3px;
 			margin: 15px 15px 10px;
