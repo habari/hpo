@@ -26,9 +26,11 @@
 							$docpage = Page::get( array('id' => $post->id) );
 							$document = Document::get( array('id' => $docpage->document_id) );
 						?>
-						<h2><a href="<?php URL::out('display_docpage', array('doc' => $document->slug, 'slug' => $docpage->name)); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+						<h3><a href="<?php URL::out('display_docpage', array('doc' => $document->slug, 'slug' => $docpage->name)); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h3>
+					<?php } elseif( $post->content_type == Post::type('entry') ) { ?>
+						<h3><a href="<?php URL::out('display_blog_single', array('slug' => $post->slug)); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h3>
 					<?php } else { ?>
-						<h2><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+						<h3><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h3>
 					<?php } ?>
 					<?php echo strip_tags( $post->content_excerpt ); ?>
 				</div>

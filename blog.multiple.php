@@ -24,7 +24,7 @@
 					<i class="icon-code">Q</i>
 				</div>
 				<div class="columns thirteen body">
-					<h2><a href="<?php URL::out('display_blog_single', array('slug' => $post->slug) ); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h2>
+					<h3><a href="<?php URL::out('display_blog_single', array('slug' => $post->slug) ); ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h3>
 					<?php echo strip_tags( $post->content_excerpt ); ?>
 				</div>
 			</div>
