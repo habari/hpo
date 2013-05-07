@@ -596,25 +596,35 @@ header + * {  /** adds a top margin to anything that comes immediately after the
 		
 	}
 
-		.news_block {
-			padding: 10px 0px;
-			background: #fff;
-			margin-bottom: 0px;
-			border-bottom: 1px solid #eee;
+	.news_block {
+		padding: 10px 0px;
+		background: #fff;
+		margin-bottom: 0px;
+		border-bottom: 1px solid #eee;
+	}
+	
+	.news_block .block {
+		padding: 0px;
+		margin: 0px;
+		height: 100%;
+		vertical-align: middle;
+	}
+	
+	.news_block .block i {
+		color: #fff !important;
+		margin-top: 30px;
+		margin-bottom: 0px !important;
+		margin-left: 30px !important;
+	}
+
+		.news+block .block img {
+			background: #eee;
+			padding: 3px;
+			margin: 15px 15px 10px;
+			width: 125px;
+			height: 125px;
 		}
-		
-		.news_block .block {
-                padding: 0px;
-                margin: 0px;
-                height: 100%;
-                vertical-align: middle;
-        }
-                .news_block .block i {
-                        color: #fff !important;
-                        margin-top: 30px;
-                        margin-bottom: 0px !important;
-                        margin-left: 30px !important;
-                }
+	
 #ending {
 	width: 100%;
 }
