@@ -8,7 +8,7 @@
 <div id="article" class="contributing">
 	<div class="container">
 		<div id="page-selector" class="top sixteen columns">
-			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2 ) ); ?> <?php echo $theme->next_page_link(); ?>
+			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2, 'hideIfSinglePage' => true ) ); ?> <?php echo $theme->next_page_link(); ?>
 		</div>
 		<div class="row">
 			<?php foreach( $posts as $post ) { ?>
@@ -38,7 +38,7 @@
 			<?php } ?>
 		</div>
 		<div id="page-selector" class="top sixteen columns">
-			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2 ) ); ?> <?php echo $theme->next_page_link(); ?>
+			<?php echo $theme->prev_page_link(); ?> <?php echo $theme->page_selector( null, array( 'leftSide' => 2, 'rightSide' => 2, 'hideIfSinglePage' => true ) ); ?> <?php echo $theme->next_page_link(); ?>
 		</div>
 	</div>
 </div>
