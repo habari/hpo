@@ -49,7 +49,7 @@
 		<h1>Spread the News!</h1>
 		<h2>Nimble, flexible, powerful. Say hello to the new Habari.</h2>
 		<div class="offset-by-one columns">
-			<p>100's of new features, a completely rewritten core, a new streamlined admin interface and an integrated Plugin &amp; Theme Store are just some of the highlights of the new &amp; improved Habari.</p>
+			<p>100s of new features, a completely rewritten core, a new streamlined admin interface and an integrated Plugin &amp; Theme Catalog are just some of the highlights of the new &amp; improved Habari.</p>
 		</div>
 	</div>
 	<div id="app_preview">

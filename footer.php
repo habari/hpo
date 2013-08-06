@@ -29,6 +29,7 @@
 						<li><a href="http://doc.habariproject.org">Habari API</a></li>
 						<li><a href="http://stackoverflow.com/questions/tagged/habari">Community Q &amp; A</a></li>
 						<li><a href="http://wiki.habariproject.org/en/FAQ">FAQ</a></li>
+						<li><a href="http://upload.wikimedia.org/wikipedia/commons/6/6a/Shetland_Pony_on_Belstone_Common%2C_Dartmoor.jpg">Pony</a></li>
 					</ul>
 				</div>
 				<div id="foot_logo" class="two columns">
