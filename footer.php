@@ -8,7 +8,7 @@
 						<li><a href="<?php Site::out_url('habari'); ?>/en/vision">Vision</a></li>
 						<li><a href="<?php Site::out_url('habari'); ?>/en/history">History</a></li>
 						<li><a href="https://github.com/habari/system/contributors">Committers</a></li>
-						<li><a href="https://github.com/organizations/habari">Source Code</a></li>
+						<li><a href="https://github.com/habari">Source Code</a></li>
 						<li><a href="<?php Site::out_url('habari'); ?>/en/license">License</a></li>
 					</ul>
 				</div>
