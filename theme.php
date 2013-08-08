@@ -16,6 +16,7 @@ class HPO extends Theme
 
 	public function action_add_template_vars() {	
 		$this->wsse = Utils::WSSE();
+		$this->title = '';
 	}
 
 	public function act_search( $user_filters = array() ) {
