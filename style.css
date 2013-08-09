@@ -3,29 +3,6 @@
 @import url('css/base.css');
 @import url('css/skeleton.css');
 
-/* Fonts */
-
-@font-face {
-	font-family: 'Montserrat';
-	src: local('☺'), url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: local('☺'), url('fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'OpenSans';
-	src: local('☺'), url('fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /* HPO Styles */
 
 body {
