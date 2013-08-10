@@ -7,10 +7,8 @@
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/style.css" media="screen" type="text/css">
-<link rel="stylesheet" href="<?php Site::out_url('theme'); ?>/css/responsive-nav.css" media="screen" type="text/css">
 <link rel="Shortcut Icon" href="<?php Site::out_url('theme'); ?>/favicon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-<script src="<?php Site::out_url('theme'); ?>/js/responsive-nav.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href="//get.pictos.cc/fonts/2135/9" rel="stylesheet" type="text/css">
 
