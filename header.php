@@ -11,7 +11,7 @@
 <link rel="Shortcut Icon" href="<?php Site::out_url('theme'); ?>/favicon.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="<?php Site::out_url('theme'); ?>/js/responsive-nav.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href="//get.pictos.cc/fonts/2135/9" rel="stylesheet" type="text/css">
 
 <script>
