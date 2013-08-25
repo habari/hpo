@@ -41,7 +41,7 @@
 						<li><a href="http://habariproject.org/en/download" title="Download and install Habari">Download and install Habari</a>.</li>
 						<li>Marvel at its majesty.</li>
 						<li>Read through our <a rhef="<?php Site::out_url('habari'); ?>/style-guide" title="Style Guidelines">Style Guidelines</a>.</li>
-						<li>Peruse our <a href="https://github.com/habari/habari/issues?state=open" title="Issue Tracker">Issue tracker</a> on Github for design related issues.</li>
+						<li>Peruse our <a href="https://github.com/habari/habari/issues?state=open" title="Issue Tracker">Issue tracker</a> on GitHub for design related issues.</li>
 						<li><a href="https://help.github.com/articles/fork-a-repo" title="">Fork the project</a> into your own Github account and start making updates!</li>
 						<li><a href="https://help.github.com/articles/using-pull-requests" title="Using Pull Requests">Make a Pull Request</a> so we can see your hard work and merge it into the project!</li>
 					</ol>
@@ -63,7 +63,7 @@
 						<li>Marvel at its majesty.</li>
 						<li>Take a read through our <a href="<?php Site::out_url('habari'); ?>/coding-standards" title="Coding Standards">Coding Standards</a>.</li>
 						<li>Peruse our <a href="https://github.com/habari/habari/issues?state=open" title="Issue Tracker">issue tracker</a> on Github for issues that pique your interest.</li>
-						<li><a href="https://help.github.com/articles/fork-a-repo" title="">Fork the project</a> into your own Github account and start making updates!</li>
+						<li><a href="https://help.github.com/articles/fork-a-repo" title="">Fork the project</a> into your own GitHub account and start making updates!</li>
 						<li><a href="https://help.github.com/articles/using-pull-requests" title="Using Pull Requests">Make a Pull Request</a> so we can see your hard work and merge it into the project!</li>
 					</ol>
 					<p>Rinse and Repeat. As your contributions are seen and integrated your karma in the project will rise, and with it the authority you will have. All of our Committers started their journey this way. For more on our community policies, check out the <a href="<?php Site::out_url('habari'); ?>/community" title="Community Guidelines">Community Guidelines</a>.</p>
