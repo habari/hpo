@@ -46,16 +46,16 @@
 	<div class="bg"></div>
 	<div class="container">
 		<h1>Spread the News!</h1>
-		<h2>Nimble, flexible, powerful. Say hello to the new Habari.</h2>
+		<h2>Nimble, flexible, powerful. Say hello to Habari.</h2>
 		<div class="offset-by-one columns">
-			<p>100s of new features, a completely rewritten core, a new streamlined admin interface and an integrated Plugin &amp; Theme Catalog are just some of the highlights of the new &amp; improved Habari.</p>
+			<p>While we are preparing for our next major release - as you can see on our redesigned website - the 0.9 series is still being maintained. Try our latest stable release now. You should also consider upgrading if you are already using Habari as 0.9.2 contains security fixes.</p>
 		</div>
 	</div>
 	<div id="app_preview">
 		<div class="container">
 			<div class="row offset-by-three">
-				<div class="download five columns"><a href="http://habariproject.org/en/download" title="download 0.9.1">Download 0.9.1</a></div>
-				<div class="take_tour five columns"><a href="<?php URL::out('display_page', array('slug' => 'whats-new')); ?>" title="See what's new">See what's new</a></div>
+				<div class="download five columns"><a href="http://habariproject.org/en/download" title="download 0.9.1">Download 0.9.2</a></div>
+				<div class="five columns"><a href="http://habariproject.org/en/habari-092-released" title="See what's new">See what's new</a></div>
 			</div>
 		</div>
 	</div>
